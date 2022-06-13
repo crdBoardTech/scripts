@@ -9,7 +9,7 @@
 # This script is meant to log out current user after instlling JAmf connect
 #
 # Purpose:
-#     User Sign out to nstall JAMF connect
+#     User Sign out to Install JAMF connect
 ###########################################################################################
 
 #Defining Functions and Variables
