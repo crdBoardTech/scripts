@@ -150,7 +150,7 @@ function installjq {
 }
 ###Get User id from Druva on m1 devices
 function DruvaUserIDm1 {
-  Emailid="${UserName}"%40nols.edu""
+  Emailid="${UserName}"
   DruvaUserid="$(curl --location --request GET "https://apis.druva.com/insync/usermanagement/v1/users?emailID=${Emailid}" \
   --header "Accept: application/json" \
   --header "Authorization: Bearer $BearerToken" |\
